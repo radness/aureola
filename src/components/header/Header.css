@@ -1,0 +1,7 @@
+.header {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  min-height: 4rem;
+  flex: 1 0 auto;
+}
