@@ -1,14 +1,16 @@
-import React, { Fragment } from "react";
-import Header from "./components/header/Header";
-import Home from "./components/home/Home";
+import React from "react";
+// import Nav from "./components/Nav";
+import Router from "./routes/Router";
 
-function App() {
-  return (
-    <Fragment>
-      <Header />
-      <Home />
-    </Fragment>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        {/* <Nav /> */}
+        <Router />
+      </div>
+    );
+  }
 }
 
 export default App;
